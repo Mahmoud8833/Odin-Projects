@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'El Messiri';
+    src: url(/fonts/static/ElMessiri-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: aqua;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-image: url(Leonardo_Phoenix_Generate_a_futuristic_hightech_background_ima_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 100%;
+}
+
+.img-logo {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-logo img {
+    height: 100%;
+    margin-right: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+}
+
+.img-text {
+    font-size: 1rem;
+    color: white;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background-image: url(pexels-jill-burrow-5987195.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.form-text p,
+.form-text h2 {
+    color: rgb(85, 84, 84);
+    font-size: 2rem;
+}
+
+.form-text {
+    margin: -9rem 1rem;
+}
+
+
+#signIn,
+#signUp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3rem 0;
+}
+
+legend {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(85, 84, 84);
+    border-radius: 15px;
+    padding: .5rem 2rem;
+    margin-left: 3rem;
+}
+
+input {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: .5rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input::placeholder {
+    color: rgb(85, 84, 84);
+    font-family: 'El Messiri', sans-serif;
+}
+
+input:focus {
+    outline: 2px solid rgb(85, 84, 84);
+}
+
+input[type="submit"] {
+    background-color: rgb(85, 84, 84);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: .5rem 2rem;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(85, 84, 84);
+    outline: 1px solid rgb(85, 84, 84);
+}
+
+p {
+    color: rgb(85, 84, 84);
+    font-size: 1.5rem;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(69, 188, 65);
+    font-weight: bold;
+}
+
+p a:hover {
+    color: rgb(40, 135, 36);
+}
+
+.form-container>p {
+    position: absolute;
+    bottom: 10px;
+    align-self: center;
+    font-size: 1rem;
+}
+
+#signIn {
+    display: none;
+}
+
+#signUp fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signUp fieldset div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

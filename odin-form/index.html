@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>New Vision Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="img">
+      <div class="img-logo">
+        <img src="logo.png" alt="logo">
+        <h1 class="title">New Vision</h1>
+      </div>
+      <div class="img-text">Photo created using Ai Leonardo</div>
+    </div>
+
+    <div class="form-container">
+
+      <div class="form-text">
+        <p>This is where it all begins</p>
+        <p>Share the success road with us</p>
+        <h2>Let's Do This!!</h2>
+      </div>
+
+      <div id="signUp">
+        <form action="">
+          <fieldset>
+            <legend>Sign Up</legend>
+
+            <div>
+              <input type="text" name="fname" placeholder="Fisrt Name" required>
+              <input type="text" name="lname" placeholder="Last Name" required>
+            </div>
+
+            <div>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="tel" name="phone" placeholder="Phone" required>
+            </div>
+
+            <div>
+              <input type="password" name="password" placeholder="Password" required>
+              <input type="password" name="password" placeholder="Confirm Password" required>
+            </div>
+
+          </fieldset>
+          <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="#" id="signInBtn">Sign In</a></p>
+      </div>
+
+      <div id="signIn">
+        <form action="">
+          <fieldset>
+            <legend>Sign In</legend>
+
+            <input type="email" name="email" placeholder="Email" required>
+
+            <input type="password" name="password" placeholder="Password" required>
+
+          </fieldset>
+          <input type="submit" value="Sign In">
+        </form>
+        <p>New Here? <a href="#" id="signUpBtn">Sign Up</a></p>
+        <p>Forgot your password? <a href="#">Reset Password</a></p>
+      </div>
+      <p>Image by <a href="https://www.pexels.com/@evie-shaffer-1259279/">Evie Shaffer</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
