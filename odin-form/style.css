@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'El Messiri';
-    src: url(/fonts/static/ElMessiri-Medium.ttf);
+    src: url(fonts/ElMessiri-VariableFont_wght.ttf);
 }
 
 * {
@@ -49,7 +49,7 @@
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 250%;
     color: white;
 }
 
@@ -78,7 +78,8 @@
 }
 
 .form-text {
-    margin: -9rem 1rem;
+    position: absolute;
+    top: 10px;
 }
 
 
@@ -87,6 +88,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 4rem;
 }
 
 fieldset {
